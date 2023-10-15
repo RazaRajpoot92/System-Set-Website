@@ -104,7 +104,7 @@ button a{
 
 /* Shape style */
 
-.custom-shape-divider-bottom-1697196252 {
+.custom-shape-divider-bottom-1697212833 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -114,19 +114,36 @@ button a{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1697196252 svg {
+.custom-shape-divider-bottom-1697212833 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 84px;
 }
 
-.custom-shape-divider-bottom-1697196252 .shape-fill {
+.custom-shape-divider-bottom-1697212833 .shape-fill {
     fill: #FFFFFF;
 }
+
+/* ----------------------------------- */
 
 /* Service section -------------- */
 
 .service-section{
     padding: 6rem 0 3rem 0 !important;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #29a9fd;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:1200px) {
+    .bg-main{
+
+       
+        height: auto;
+    }
 }
